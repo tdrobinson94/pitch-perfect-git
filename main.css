@@ -1,0 +1,64 @@
+ul{
+  list-style: none;
+}
+.image-number{
+  color: lightgray;
+  position: relative;
+  left: 2px;
+}
+.image-caption{
+  display: inline;
+  float: right;
+  margin: 1px;
+  line-height: 26px;
+}
+.image-caption a{
+  text-decoration: none;
+  color: black;
+}
+.image-caption span{
+  color: rgb(128,128,128);
+}
+.authors li a img{
+  width: 20px;
+  margin: 1px;
+  float: right;
+}
+.authors li{
+  display: inline;
+}
+.authors{
+  display: inline;
+  padding: 0px;
+}
+.octocat img{
+  border: solid lightgray 1.5px;
+  width: 330px;
+}
+.octocat{
+  float: left;
+  display: inline;
+  margin-right: 20px;
+}
+.octocat a{
+  display: inline;
+}
+.image-footer{
+  border-bottom: 1.5px solid lightgray;
+  line-height: 31px;
+  position: relative;
+}
+.image-footer::after{
+  content: " ";
+  position: absolute;
+  z-index: 2;
+  top: -5px;
+  left: 315px;
+  /*right: 5px;*/
+  bottom: 5px;
+  width: 10;
+  height: 7;
+  border-style: solid;
+  border-width: 7px 6px 0 6px;
+  border-color: #d9d9d9  transparent transparent transparent;
+}
